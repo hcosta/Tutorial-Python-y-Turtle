@@ -436,6 +436,4 @@ Sea como sea este módulo me ha recordado cuando en mi infancia dibujaba con un 
 
 * [Introducción visual a Python](https://hourofpython.com/una-introduccion-visual-a-python/index.html): Minicurso MUY RECOMENDADO de Python gráfico 100% en español utilizando Turtle.
 
-* [Documentación oficial](https://docs.python.org/3.6/library/turtle.html): El mejor lugar para aprender, como siempre, dónde encontraréis muchísimas funcionalidades para la tortuga.
-
-* [Turtle Academy](https://turtleacademy.com): Proyecto educativo dedicado 100% a la enseñar a programar con la tortuga de forma visual utilizando el lenguaje Logo.
+* [Documentación oficial](https://docs.python.org/3.6/library/turtle.html): El mejor lugar para aprender todas las funcionalidades de la tortuga.
