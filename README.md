@@ -139,7 +139,7 @@ t.left(90)
 t.forward(150)  # última mitad hacia arriba
 ```
 
-<div style="text-align:center;"><img src="/docs/img02.jpg"/></div>
+<div style="text-align:center;"><img src="/docs/img02.jpg" width="60%"/></div>
 
 ### Tercer dibujo
 
@@ -193,7 +193,7 @@ for n in range(10):
     rectangulo(0, 0, n*50, n*50)
 ```
 
-<div style="text-align:center;"><img src="/docs/img03.jpg"/></div>
+<div style="text-align:center;margin-bottom:10px;"><img src="/docs/img03.jpg" width="60%"/></div>
 
 Fácil, rápido y para toda la família.
 
@@ -215,7 +215,7 @@ def poligono_regular(px, py, radio, lados):
 poligono_regular(0, 0, 100, 7)
 ```
 
-<div style="text-align:center;"><img src="/docs/img04.jpg"/></div>
+<div style="text-align:center;margin-bottom:10px;"><img src="/docs/img04.jpg" width="60%"/></div>
 
 Ahora tenemos que calcular los grados que debemos girar y trazar nuestras líneas. En el caso del cuadrado era muy fácil, pues sabemos que hay que girar 90 grados. ¿Pero cómo lo haremos aquí? Bueno, sabemos que 90º es una cuarta parte de 360, así que extrapolando eso podemos calcular el ángulo dividiendo 360 entre el número de lados del polígono regular:
 angulo = 360 / lados
@@ -237,7 +237,7 @@ Sabiendo el ángulo, podemos posicionarnos en el centro de nuestro círculo y tr
         print( t.pos() )
 ```
 
-<div style="text-align:center;"><img src="/docs/img05.jpg"/></div>
+<div style="text-align:center;margin-bottom:10px;"><img src="/docs/img05.jpg" width="60%"/></div>
 
 Woo! Que bonito quesito nos ha quedado eh? Pero lo más importante es que tenemos todas las coordenadas de los vértices de nuestro polígono:
 
@@ -270,7 +270,7 @@ Vamos a hacer que la tortuga trace líneas entre esos vértices yendo de unos a 
         t.goto(v)  
 ```
 
-<div style="text-align:center;"><img src="/docs/img06.jpg"/></div>
+<div style="text-align:center;margin-bottom:10px;"><img src="/docs/img06.jpg" width="60%"/></div>
 
 ¡Uiii casi lo tenemos! Sólo tenemos que trazar el último costado que iría hasta el primer vértice que es desde donde partimos:
 
@@ -279,7 +279,7 @@ Vamos a hacer que la tortuga trace líneas entre esos vértices yendo de unos a 
     t.goto(vertices[0])   
 ```
 
-<div style="text-align:center;"><img src="/docs/img07.jpg"/></div>
+<div style="text-align:center;margin-bottom:10px;"><img src="/docs/img07.jpg" width="60%"/></div>
 
 ¡Siiii y ahí lo tenemos!
 Sólo deberíamos hacer algunos ajustes a nuestro programa para que la tortuga sólo dibuje los costados:
@@ -317,7 +317,7 @@ def poligono_regular(px, py, radio, lados):
     t.goto(vertices[0])  
 ```
 
-<div style="text-align:center;"><img src="/docs/img08.jpg"/></div>
+<div style="text-align:center;margin-bottom:10px;"><img src="/docs/img08.jpg" width="60%"/></div>
 
 ¡Genial!
 
@@ -333,7 +333,7 @@ for n in range(3, 21):
     poligono_regular(0, 0, n*10, n)
 ```
 
-<div style="text-align:center;"><img src="/docs/img09.jpg"/></div>
+<div style="text-align:center;margin-bottom:10px;"><img src="/docs/img09.jpg" width="60%"/></div>
 
 Sin duda nuestra tortuga está hecha toda una artista.
 
@@ -372,7 +372,7 @@ t.done()
 t.bye()
 ```
 
-<div style="text-align:center;"><img src="/docs/img10.jpg"/></div>
+<div style="text-align:center;margin-bottom:10px;"><img src="/docs/img10.jpg" width="60%"/></div>
 
 Al añadir interactividad somos nosotros quienes controlamos a la tortuga en tiempo real, hemos creado un videojuego sin saberlo! ¿Qué os parece?
 
@@ -420,7 +420,7 @@ t.done()
 t.bye()
 ```
 
-<div style="text-align:center;"><img src="/docs/img11.jpg"/></div>
+<div style="text-align:center;margin-bottom:10px;"><img src="/docs/img11.jpg" width="60%" /></div>
 
 ## Conclusión
 
