@@ -1,13 +1,11 @@
-# Tutorial-Python-y-Turtle
+# Tutorial Python y Turtle
 Para la serie divulgando Python.
 
 ## Definición
 
 El módulo de la tortuga es la herramienta educativa perfecta para aprender programación de forma visual dibujando sobre un lienzo. 
 
-Se introduje en el lenguaje Logo en 1966, sí, hace más de medio siglo. 
-
-Si bien no es tan visual como programar con Scratch, permite trabajar directamente con un lenguaje como Python que la incorporó hace ya varios años. 
+Se introdujo en el lenguaje Logo en 1966, sí, hace más de medio siglo, y si bien no es tan visual como programar con Scratch, permite trabajar directamente en un lenguaje como Python que la incorporó hace ya varios años. 
 
 En cierto modo se puede considerar una introducción a la programación de videojuegos, así que si te interesa el tema quédate hasta el final porque aprendes algunas cosas muy interesantes.
 
