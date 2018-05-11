@@ -76,6 +76,7 @@ print(t.pos())
 ```
 
 Como veréis la tortuga recorrerá los 250 píxeles dibujando una bonita línea verde, y nos dirá que se encuentra en el punto (250, 0).
+
 Ahora si le decimos que avance hacia arriba 250 píxeles más deberíamos ser capaces de llegar a la esquina superior derecha del lienzo. Para ello le diremos que gire 90 grados a la izquierda antes de ir adelante de nuevo:
 
 ```python
@@ -89,9 +90,11 @@ print(t.pos())
 (250.00,250.00)
 ```
 
-```python
 Como véis la tortuga llega a la esquina superior derecha, cuyo punto es (250, 250).
+
 Ahora os planteo el ejercicio de encontrar los puntos de las otras tres esquinas e ir mostrándolos en la terminal con print, pausad el vídeo y cuando las tengáis continuad para ver la solución.
+
+```python
 print("Origen", t.pos())
 t.forward(250)
 t.left(90)
