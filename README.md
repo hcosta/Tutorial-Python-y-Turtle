@@ -113,6 +113,8 @@ print("Esquina inferior derecha", t.pos())
 
 Resultado final:
 
+<img src="/docs/img01.jpg"/>
+
 ### Segundo dibujo
 
 Ya hemos visto cómo ir hacia adelante con forward() y rotar a la izquierda con left(), pues también podemos ir hacia atrás con backward() y rotar a la derecha con right().
