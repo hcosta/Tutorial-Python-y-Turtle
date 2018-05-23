@@ -147,7 +147,7 @@ A partir de ahora el tema se pone interesante de verdad, vamos a incorporar algo
 
 Empecemos por una función.
 
-Crear un cuadrado o un rectángulo es algo bastante común, así que podemos crear una función cuadrado() con las instrucciones básicas a partir de una anchura, una altura y una coordenada para su centro. 
+Crear un cuadrado o un rectángulo es algo bastante común, así que podemos crear una función rectangulo() con las instrucciones básicas a partir de una anchura, una altura y una coordenada para su centro. 
 
 Para redondearlo introduciremos el uso de la acción goto(), que le indica a la tortuga que vaya a una coordenada en específico de forma automática, y la acción seth() que le establece una dirección en grados hacia dónde mirar, siendo 0 a la derecha, 90 arriba, 180 a la izquierda y 270 abajo.
 
