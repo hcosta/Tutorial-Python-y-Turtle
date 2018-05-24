@@ -25,6 +25,3 @@ while True:
 
 t.done()
 t.bye()
-
-t.done()
-t.bye() 
