@@ -174,26 +174,11 @@ def rectangulo(px, py, ancho, alto):
     t.forward(alto)
     t.left(90)
 
-rectangulo(0, 0, 100, 100)
+rectangulo(0, 0, 400, 300)
+rectangulo(0, 0, 300, 200)
+rectangulo(0, 0, 150, 100)
+rectangulo(0, 0, 100, 50)
 ```
-
-¿Os habéis fijado que para dibujar la estructura repetimos 4 veces ir hacia adelante y rotar 90 grados? Podríamos sustituirlo por un bucle que se repita:
-
-```python
-    # Dibujamos la estructura
-    for i in range(4):
-        t.forward(ancho)
-        t.left(90)
-```
-
-Utilizando el poder de los bucles podemos hacer un dibujo sorprendente sólo con cuadrados, mirad:
-
-```python
-for n in range(10):
-    rectangulo(0, 0, n*50, n*50)
-```
-
-<div style="text-align:center;margin-bottom:10px;"><img src="/docs/img03.jpg" width="60%"/></div>
 
 Fácil, rápido y para toda la família.
 
