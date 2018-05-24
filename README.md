@@ -260,9 +260,9 @@ Y ahora viene la magia.
 Vamos a hacer que la tortuga trace líneas entre esos vértices yendo de unos a otros utilizando la acción goto:
 
 ```python
-    # Nos posicionamos en la coordenada del primer vértice
+    # Nos posicionamos en la coordenada del último vértice
     t.penup()
-    t.goto(vertices[0])  
+    t.goto(vertices[-1])  
     t.pendown()
     
     # Y hacemos que la tortuga se mueva a cada uno de ellos
@@ -270,18 +270,10 @@ Vamos a hacer que la tortuga trace líneas entre esos vértices yendo de unos a 
         t.goto(v)  
 ```
 
-<div style="text-align:center;margin-bottom:10px;"><img src="/docs/img06.jpg" width="60%"/></div>
-
-¡Uiii casi lo tenemos! Sólo tenemos que trazar el último costado que iría hasta el primer vértice que es desde donde partimos:
-
-```python
-    # Trazamos el último costado
-    t.goto(vertices[0])   
-```
-
 <div style="text-align:center;margin-bottom:10px;"><img src="/docs/img07.jpg" width="60%"/></div>
 
 ¡Siiii y ahí lo tenemos!
+
 Sólo deberíamos hacer algunos ajustes a nuestro programa para que la tortuga sólo dibuje los costados:
 
 ```python
@@ -303,18 +295,15 @@ def poligono_regular(px, py, radio, lados):
         t.forward(radio)
         vertices.append(t.pos()) 
         
-    # Nos posicionamos en la coordenada del primer vértice
-    t.goto(vertices[0])  
+    # Nos posicionamos en la coordenada del último vértice
+    t.goto(vertices[-1])  
     
     # Empezamos a dibujar
     t.pendown()
     
     # Y hacemos que la tortuga se mueva a cada uno de ellos
     for v in vertices:
-        t.goto(v)  
-        
-    # Trazamos el último costado
-    t.goto(vertices[0])  
+        t.goto(v) 
 ```
 
 <div style="text-align:center;margin-bottom:10px;"><img src="/docs/img08.jpg" width="60%"/></div>
